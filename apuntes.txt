@@ -2,3 +2,18 @@ git remote add origin "url del repositorio de github"
 
 git pull origin master
 Trae los cambios del master del repositorio de github
+
+git push origin master
+
+Al inicio falla porque el repositorio remoto tiene otro historial de versiones que no estan en la version local del repositorio
+
+Debemos traer los cambios
+
+git pull origin master
+
+Pero sale una advertencia al hacer un merge del historial de commits
+
+git pull origin master --allow-unrelated-histories
+
+Aceptamos los cambios con 
+esc+shift+z+z
