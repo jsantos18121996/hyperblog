@@ -9,7 +9,7 @@ body {
 
 .container {
     width: 70%;
-    padding: 1em;
+    padding: 0.9em;
     text-align: left;
     border: 1px solid gray;
     margin: 0 auto;
@@ -17,4 +17,17 @@ body {
 
 .container h1 {
     font-size: 20px;
+}
+
+.cabecera {
+    margin: -15px;
+    padding: 10px;
+    color: white;
+    background-color: darkblue;
+    display: flex;
+}
+
+.tagline {
+    text-align: right;
+    margin-left: auto;
 }
